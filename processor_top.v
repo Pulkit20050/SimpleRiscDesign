@@ -6,7 +6,7 @@
 // Design Name: Processor fetch
 // Module Name: fetch_unit
 // Project Name: SimpleRisc Architecture
-// Target Devices: Arty Z7, Arria, Basys 3
+// Target Devices: Arty Z7, Basys 3
 // Tool Versions: 
 // Description: 
 // 
@@ -97,4 +97,5 @@ control_unit u7(
     .isLd_out(isLd),
     .isCall_out(isCall)
 );
+
 endmodule
